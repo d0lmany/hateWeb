@@ -1,2 +1,9 @@
 # hateWeb
-back/front/full
+backend
+***
+
+frontend
+***
+
+fullstak
+***
