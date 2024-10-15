@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/svg/favicon.svg">
+    <script src="js/api.js" defer></script>
+</head>
+<body>
+    <header>
+        <button><a href="index.html"><img src="img/logo.svg" class=logo></a></button>
+        <form class="searcher">
+        <input type="search"><button type="submit"><img src="img/svg/header-search.svg"></button>
+        </form>
+        <ul class="taps">
+            <li><button><img src="img/svg/header-upload.svg"></button></li>
+            <li><button><img src="img/svg/header-push.svg"></button></li>
+            <li><button><img src="img/svg/header-account.svg"></button></li>
+            <li><button id="button"><img src="img/svg/header-menu.svg"></button></li>
+        </ul>
+    </header>
+   <nav id="menu">
+    <ul>
+        <li><a href="later.html"><img src="img/svg/later.svg">Запланировано</a></li>
+        <li><a href="subs.html"><img src="img/svg/subs.svg">Подписки</a></li>
+    </ul>
+    <hr>
+   </nav>
+   <script>
+    document.getElementById("button").addEventListener("click", function() {
+    let fuckmenu = document.getElementById("menu");
+    fuckmenu.classList.toggle("open");});
+   </script>
+    <main class="main api">
+        <section class="none">
+            <span style="font-weight: bolder;font-size: 30px;">Кажется, тут пусто</span>
+            <span>Подождите, или подключитесь к интернету</span>
+            <img src="img/svg/box.svg">
+        </section>
+    </main>
+    <footer>
+        <span>dev: <a href="https://t.me/hearsirens">d0lmany</a></span>
+        <span>все права защищены <script>let y=new Date,yy=y.getFullYear();document.write(yy)</script></span>
+    </footer>
+</body>
+</html>
