@@ -1,10 +1,14 @@
 # hateWeb
-### frontend
+backend
 ***
-- HEDONISM
-- Prime
-- TOOLband
-- Ultor
-### fullstak
+- smp
+
+frontend
 ***
-- SMP
+- toolband
+- ultor
+- hedonism
+- prime
+
+fullstack
+***
